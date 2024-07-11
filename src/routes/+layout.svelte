@@ -1,7 +1,7 @@
 <script>
   import "../app.css";
   import { openModal } from "../store";
-  import { theme } from "../store";
+  import { theme, language } from "../store";
   import DarkToggle from "../components/ui/DarkToggle.svelte";
 
   let y
@@ -12,6 +12,27 @@
     $openModal = false;
     location.href = href;
   } 
+
+  let links = [
+  {
+    "skills": {
+      "en": "skills",
+      "jp": "スキル"
+    }
+  },
+  {
+    "projects": {
+      "en": "projects",
+      "jp": "プロジェクト"
+    }
+  },
+  {
+    "about": {
+      "en": "about",
+      "jp": "自己紹介"
+    }
+  }
+];
 </script>
 
 {#if $openModal}
@@ -26,17 +47,17 @@
      </div>
      <div class="flex flex-col flex-1 gap-4">
       <button on:click={()=>reroute("#skills")} class="p-2 text-left duration-200 border-none outline-none cursor-pointer group">
-        <p class="duration-200 group-hover:pl-2">skills</p>
+        <p class="duration-200 group-hover:pl-2">{#if $language==='en'}{links[0].skills.en}{:else}{links[0].skills.jp}{/if}</p>
       </button>
     
      
       <button on:click={()=>reroute("#projects")} class="p-2 text-left duration-200 border-none outline-none cursor-pointer group">
-        <p class="duration-200 group-hover:pl-2">projects</p >
+        <p class="duration-200 group-hover:pl-2">{($language==='en')?links[1].projects.en:links[1].projects.jp}</p >
       </button>
     
      
       <button on:click={()=>reroute("#about")} class="p-2 text-left duration-200 border-none outline-none cursor-pointer group">
-        <p class="duration-200 group-hover:pl-2">about</p>
+        <p class="duration-200 group-hover:pl-2"> {($language==='en')?links[2].about.en:links[2].about.jp}</p>
       </button>
     </div>
     
