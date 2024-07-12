@@ -13,7 +13,7 @@
 
 </script>
 
-<SectionWrapper>
+<SectionWrapper id="hero">
   <Header/>
   <section class=" grid grid-col justify-center items-center sm:flex gap-6 mt-20">
     <div class="flex justify-center">

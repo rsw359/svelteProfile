@@ -23,8 +23,8 @@
 
   <div class="p-4">
     <div class="flex flex-col items-center justify-center text-center">
-      <img src={skillsPic} alt="" class="w-32 h-32 rounded-full border-2 {($theme==='dark')?'border-white': 'border-gray-600'}" />
-      <h1 class="text-3xl font-bold text-gray-800 mt-4">{$language==='en'?title.en : title.jp}</h1>
+      <img src={skillsPic} alt="" class="w-32 h-32 rounded-full border-2 z-50 {($theme==='dark')?'border-white': 'border-gray-600'}" />
+      <h1 class="text-3xl font-bold z-50 text-gray-800 mt-4">{$language==='en'?title.en : title.jp}</h1>
       <p class="sm:w-3/4 mt-4">
         {$language ==='en' ? skills.en : skills.jp}
       </p>
@@ -33,7 +33,7 @@
   
   
   <div class="flex flex-col w-full sm:p-4 items-center">
-    <p class="mt-4 text-base leading-relaxed sm:text-lg sm:leading-loose">{$language==='en'?stack.en : stack.jp}</p>
+    <p class="mt-4 text-base leading-relaxed sm:text-lg sm:leading-loose mb-2">{$language==='en'?stack.en : stack.jp}</p>
     <div class="border-b justify-center border-gray-200 w-3/4"></div>
     <div class=" flex flex-row sm:justify-between gap-4 mt-4 sm:w-3/4">
       <!-- Frontend -->
