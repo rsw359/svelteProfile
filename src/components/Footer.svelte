@@ -19,7 +19,7 @@
   <div class="container mx-auto px-4">
     <div class="flex flex-col md:flex-row justify-between items-center">
       <div class="mb-4 md:mb-0">
-        <h3 class="text-lg font-semibold mb-2">{$language === 'en' ? contact.en : contact.jp}</h3>
+        
         <a href="mailto:devrogerjp@gmail.com" class="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300 flex items-center mb-2">
           <Icon icon="mdi:email" class="mr-2" />
           devrogerjp@gmail.com
