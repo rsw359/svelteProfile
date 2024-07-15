@@ -5,8 +5,8 @@
   import Icon from '@iconify/svelte'
 
   let about = {
-    "en": "Hi, I'm [Your Name]. I'm a passionate developer with a keen interest in creating innovative solutions. With a background in [Your Background], I bring a unique perspective to every project I undertake.",
-    "jp": "こんにちは、[あなたの名前]です。革新的なソリューションを生み出すことに情熱を持つ開発者です。[あなたの背景]の経験を活かし、取り組むプロジェクトごとにユニークな視点をもたらします。"
+    "en": "I've been living in Japan for 12 years. During this time, I've worked as an English teacher, a photographer, and most recently, a software developer. I used the COVID-19 pandemic as an opportunity to study software engineering at Code Fellows in Seattle, WA. Since then, I've been honing my skills and working on various projects. When I'm not coding, I enjoy road cycling and indulging in my coffee habit as a home roaster.",
+    "jp": "私は日本に住んで12年になります。この期間中、英語教師、写真家、そして最近ではソフトウェア開発者として働いてきました。COVID-19パンデミックの期間中、シアトルのCode Fellowsでソフトウェアエンジニアリングを学びました。それ以来、スキルを磨きながら様々なプロジェクトに取り組んでいます。ソフトウェアの仕事をしていないときは、ロードバイクを楽しんだり、自家焙煎のコーヒーで趣味を満喫しています。"
   }
   let title = {
     "en": "About Me",
@@ -70,16 +70,16 @@
       <div class="flex flex-col gap-4 mt-4">
         <p class="mb-1 leading-relaxed text-lg sm:text-xl font-semibold">Other Interests</p>
         <div class="flex items-center gap-2">
-          <Icon icon="mdi:book-open-page-variant" width="24" height="24"/>
-          <p class="text-sm sm:text-base">Continuous Learning</p>
+          <Icon icon="ph:bicycle-bold" width="24" height="24"/>
+          <p class="text-sm sm:text-base">Cycling</p>
         </div>
         <div class="flex items-center gap-2">
-          <Icon icon="mdi:account-group" width="24" height="24"/>
-          <p class="text-sm sm:text-base">Collaboration</p>
+          <Icon icon="ph:coffee-bean-bold" width="24" height="24"/>
+          <p class="text-sm sm:text-base">Coffee Perfection</p>
         </div>
         <div class="flex items-center gap-2">
-          <Icon icon="mdi:lightbulb-on" width="24" height="24"/>
-          <p class="text-sm sm:text-base">Innovation</p>
+          <Icon icon="ph:camera-bold" width="24" height="24"/>
+          <p class="text-sm sm:text-base">Photography</p>
         </div>
       </div>
     </div>
