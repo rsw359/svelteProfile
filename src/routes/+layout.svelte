@@ -3,13 +3,16 @@
   import { openModal } from "../store";
   import { theme, language } from "../store";
   import DarkToggle from "../components/ui/DarkToggle.svelte";
+  import Header from "../components/Header.svelte";
+	import Footer from "../components/Footer.svelte";
 
   let y
 
-  $: outerHeight = 0 
+  $: outerHeight = 0
 
   function reroute(href) {
     $openModal = false;
+    
     location.href = href;
   } 
 
@@ -64,8 +67,14 @@
     
   </div>
 {/if}
-
+{#if y > outerHeight * .4}
+  <div class="fixed top-0 left-0 z-50 flex flex-col w-full px-0 fade-in {($theme === 'dark') ? 'text-white' : 'text-base'} {($theme === 'dark') ? 'bg-slate-600': 'bg-white'} ">
+    <Header/>
+  </div>
+{/if}
 <slot />
+<Footer/>
+<svelte:window bind:scrollY={y} bind:outerHeight/>
 
 <!-- 
 header 
