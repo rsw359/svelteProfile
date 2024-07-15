@@ -70,16 +70,16 @@
       <div class="flex flex-col gap-4 mt-4">
         <p class="mb-1 leading-relaxed text-lg sm:text-xl font-semibold">Other Interests</p>
         <div class="flex items-center gap-2">
-          <Icon icon="mdi:book-open-page-variant" width="24" height="24"/>
-          <p class="text-sm sm:text-base">Continuous Learning</p>
+          <Icon icon="ph:bicycle-bold" width="24" height="24"/>
+          <p class="text-sm sm:text-base">Cycling</p>
         </div>
         <div class="flex items-center gap-2">
-          <Icon icon="mdi:account-group" width="24" height="24"/>
-          <p class="text-sm sm:text-base">Collaboration</p>
+          <Icon icon="ph:coffee-bean-bold" width="24" height="24"/>
+          <p class="text-sm sm:text-base">Coffee Perfection</p>
         </div>
         <div class="flex items-center gap-2">
-          <Icon icon="mdi:lightbulb-on" width="24" height="24"/>
-          <p class="text-sm sm:text-base">Innovation</p>
+          <Icon icon="ph:camera-bold" width="24" height="24"/>
+          <p class="text-sm sm:text-base">Photography</p>
         </div>
       </div>
     </div>
