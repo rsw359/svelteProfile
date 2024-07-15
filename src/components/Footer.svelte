@@ -27,7 +27,7 @@
         
       </div>
       <div class="flex space-x-4">
-        <a href="https://https://github.com/rsw359" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200">
+        <a href="https://github.com/rsw359" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200">
           <Icon icon="mdi:github" width="24" height="24" />
         </a>
         <a href="https://www.linkedin.com/in/roger-s-wells/" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200">
