@@ -28,7 +28,7 @@
 
  </script>
  
- <header class="relative z-50 flex flex-col">
+ <header class="relative flex flex-col">
     <div class="max-v-[1400] mx-auto w-full flex items-center pb-0 mb-0 justify-between p-4 py-6">
        <a href="/">
         <h1 class="font-semibold">Roger Wells <span class="{($theme === 'dark')?'text-black':'text-red-600'} italic">_Developer</span></h1>

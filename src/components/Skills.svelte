@@ -23,8 +23,8 @@
 
   <div class="p-4 mt-9">
     <div class="flex flex-col items-center justify-center text-center">
-      <img src={skillsPic} alt="" class="w-32 h-32 rounded-full border-2 z-20 {($theme==='dark')?'border-white': 'border-gray-600'}" />
-      <h1 class="text-3xl font-bold z-20 text-gray-800 mt-4">{$language==='en'?title.en : title.jp}</h1>
+      <img src={skillsPic} alt="" class="w-32 h-32 rounded-full border-2 {($theme==='dark')?'border-white': 'border-gray-600'}" />
+      <h1 class="text-3xl font-bold text-gray-800 mt-4">{$language==='en'?title.en : title.jp}</h1>
       <p class="sm:w-3/4 mt-4">
         {$language ==='en' ? skills.en : skills.jp}
       </p>
